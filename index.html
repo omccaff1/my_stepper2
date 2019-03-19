@@ -8,26 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- first step to a responsive site -->
     <title>Building a Personalized Journey Interactive</title>
-
     <!-- FONT AWESOME -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- Your styles should be called here -->
-
     <link rel="stylesheet" type="text/css" href="styles.css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      	<![endif]-->
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
   </head>
 
   <body>
     <!-- YOUR CONTENT GOES HERE -->
-
-
     <div class="intro">
       <!-- The background photo is in the stylesheet -->
       <div class="image">
@@ -35,14 +29,12 @@
           <h1 class="landing-page">Good Dog<span class="subhead">
               Choosing a furry friend takes serious consideration
             </span></h1>
-
           <!-- <span class="intro-text"> -->
           <div class="billboard-text">
             <p>
               Some super interesting blurb that will totally draw in your reader.
             </p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.</p>
-
             <p>Are you ready for one in your life? </p>
           </div>
           <!-- </span> -->
@@ -55,7 +47,6 @@
       <!-- end section-wrap-->
     </div>
     <!-- Closes div class landing-->
-
     <!-- Where do you live? -->
     <div class="choices hide" id="your-dwelling-background">
       <section class="choices hide" id="your-dwelling">
@@ -65,13 +56,11 @@
           <p>
             What kind of home do you live in?
           </p>
-
           <input type="button" class="steps-btn" value="House" id="house_btn" data-id="house" data-color="#AC9320" />
           <input type="button" class="steps-btn" value="Apartment" id="apt_btn" data-id="apt" data-color="#EFD766" />
         </section>
       </section>
     </div>
-
     <!-- live in House-->
     <div class="choices hide" id="house-background">
       <section class="choices hide" id="house">
@@ -94,32 +83,42 @@
           <p>
             But if you lead an active life and your dog gets lots of walks, you could still get a larger breed.
           </p>
-
           <p>
             Do you lead an active lifestyle?
           </p>
           <input type="button" class="steps-btn" value="Yes" data-id="energetic-breeds" data-color="#AC9320" />
-          <input type="button" class="steps-btn " value="No" data-id="lazy-breeds" data-color="#AC9320" />
+          <input type="button" class="steps-btn" value="No" data-id="lazy-breeds" data-color="#AC9320" />
         </section>
       </section>
     </div>
-
-    <div class="choices hide" id="kid-backgroud">
-      <section class="choices hide" id="kids">
+    <div class="choices hide" id="energetic-breeds-background">
+      <section class="choices hide" id="energetic-breeds">
         <section class="text">
-          <h1>Do you kids?</h1>
+          <h1>Do you have kids?</h1>
+          <p>Some breeds are more friendly to small humans.</p>
+          <p>
+            Will your dog be around kids? and you're energetic
+          </p>
+          <input type="button" class="steps-btn" value="Kids" data-id="yes-kids" data-color="#FF69B4" />
+          <input type="button" class="steps-btn" value="No kids" data-id="no-kids" data-color="##FF69B4" />
+        </section>
+      </section>
+    </div>
+    <div class="choices hide" id="lazy-breeds-background">
+      <section class="choices hide" id="lazy-breeds">
+        <section class="text">
+          <h1>Do you have kids?</h1>
           <p>Some breeds are more friendly to small humans.</p>
           <p>
             Will your dog be around kids?
           </p>
-          <input type="button" class="steps-btn" value="Kids" id="yes_btn" data-id="yes" data-color="#FF69B4" />
-          <input type="button" class="steps-btn" value="No kids" id="no_btn" data-id="no" data-color="##FF69B4" />
+          <input type="button" class="steps-btn" value="Kids" data-id="yes-kids" data-color="#FF69B4" />
+          <input type="button" class="steps-btn" value="No kids" data-id="no-kids" data-color="##FF69B4" />
         </section>
       </section>
     </div>
-    </div>
     <!-- Has kids -->
-    <div class="choices hide" id="yes-kids-backgroud">
+    <div class="choices hide" id="yes-kids-background">
       <section class="choices hide" id="yes-kids">
         <section class="text">
           <h1>Kid-friendly breeds</h1>
@@ -127,14 +126,13 @@
           <li>Beagles</li>
           <li>Irish Setters</li>
           <li>Pooodles</li>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/t_TaMnQduOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <input type="button" class="restart-btn" value="Start Over" />
         </section>
       </section>
     </div>
-
     <!-- No kids -->
-
-    <div class="choices hide" id="no-kids-backgroud">
+    <div class="choices hide" id="no-kids-background">
       <section class="choices hide" id="no-kids">
         <section class="text">
           <h1>Other dogs</h1>
@@ -142,19 +140,17 @@
           <li>Chihuahua</li>
           <li>Australian Shepard</li>
           <li>Jack Russell Terrier</li>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/X4TVV5_cLGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <input type="button" class="restart-btn" value="Start Over" />
         </section>
       </section>
     </div>
-
-    <input type="button" class="restart-btn" value="Start Over" />
+    <!-- <input type="button" class="restart-btn" value="Start Over" />
     </section>
     </section>
-    </div>
-
+    </div> -->
     <!-- the jQuery library. You need this to be able to use jQuery ($) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <!-- Your javascript should be called here -->
     <script src="main.js"></script>
   </body>
